@@ -4,7 +4,7 @@ import Glitch from "./logo/Glitch";
 const HeroNew = () => {
   return (
     <>
-      <div className=" bg-bg bg-opacity-20 backdrop-blur-md min-h-full flex-grow flex justify-center items-center rounded-lg">
+      <div className=" bg-bg bg-opacity-20 backdrop-blur-sm min-h-full flex-grow flex justify-center items-center rounded-lg">
         <div className="text-center">
           <Glitch />
           <p className="mt-4 md:text-2xl text-nbg xl:text-3xl font-silkscreen font-medium 2xl:text-4xl">
