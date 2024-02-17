@@ -9,7 +9,7 @@ const Cards = ({ title, bgImg, events }) => {
 
   return (
     <div
-      className="rounded-xl w-3/5 h-60 flex items-center justify-center relative cursor-pointer"
+      className="rounded-xl w-3/5 h-56 flex items-center justify-center relative cursor-pointer"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundSize: "cover",

@@ -38,8 +38,8 @@ const Events = () => {
   ];
   return (
     <>
-      <section className="min-h-full flex justify-center items-center rounded-lg gap-6 flex-col flex-grow bg-black bg-opacity-20 backdrop-blur-sm pb-2">
-        <h1 className="text-9xl text-nbg font-silkscreen uppercase mt-5">
+      <section className="flex justify-center items-center gap-6 flex-col pb-6">
+        <h1 className="text-9xl text-white font-silkscreen uppercase mt-5 z-[1]">
           Events
         </h1>
         <hr className="bg-nbg h-auto w-5/6 mb-5" />
