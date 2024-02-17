@@ -13,7 +13,7 @@ export default {
       colors:{
         bg: "#1f232c",
         nbg: "#edecf0",
-        primary1: "#f86668",
+        primary1: "#ef1897",
         primary2: "#919cfd",
       }
     },

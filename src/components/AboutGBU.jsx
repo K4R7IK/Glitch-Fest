@@ -30,8 +30,6 @@ function AboutGBU() {
               wonder why the university has become a favoured venue for
               conducting key events, both of national and international
               importance.
-              <br/>
-              But bhai seriously yeh university students to support nahi karti jayda. Bus teachers apne pocket fill karne mein lage h. Student ki maa ki ch*t.
             </p>
           </div>
         </div>
