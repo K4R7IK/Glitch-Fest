@@ -4,6 +4,8 @@ import bgVid from "./assets/Videos/cosmos.gif";
 import BgImage from "./assets/Videos/skull.gif";
 import Nav from "./components/nav/Nav";
 import Events from "./components/Events";
+import About from "./components/About";
+import Bgabout from "./assets/Videos/camille-unknown-barcelona21xx-full.gif";
 
 function App() {
   return (
@@ -14,10 +16,14 @@ function App() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="min-h-screen flex items-strech p-3 flex-col gap-3"
+        className="min-h-screen flex p-3 flex-col gap-3"
       >
         <Nav />
         <HeroNew />
+      </div>
+      <div>
+        <img src={Bgabout} className="-z-10 absolute object-cover w-screen brightness-[70%]" />
+        <About />
       </div>
       <div
         style={{
