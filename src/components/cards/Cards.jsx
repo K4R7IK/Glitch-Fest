@@ -17,7 +17,7 @@ const Cards = ({ title, bgImg, events }) => {
       }}
       onClick={togglePopup}
     >
-      <h1 className="text-nbg text-9xl uppercase font-pixelify bg-bg px-9 py-4 bg-opacity-50 rounded-lg backdrop-blur-sm">
+      <h1 className="text-nbg lg:text-9xl uppercase font-pixelify text-6xl">
         {title}
       </h1>
       {showPopup && (
