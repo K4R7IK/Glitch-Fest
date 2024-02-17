@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+}
+
+.grid-cols-auto-fill {
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+
+.grid-rows-logo-gap {
+  grid-gap: 4rem;
+}
+
+.logo-img {
+  object-fit: cover;
+  max-width: 120px;
+  max-height: 60px;
+  filter: grayscale(100%) contrast(25%);
+  transition: filter 0.3s ease;
+
+  &:hover {
+    filter: grayscale(0) contrast(100%);
+  }
+}
