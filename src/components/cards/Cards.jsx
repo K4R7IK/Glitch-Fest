@@ -21,20 +21,31 @@ const Cards = ({ title, bgImg, events }) => {
         {title}
       </h1>
       {showPopup && (
-        <div className="fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black z-20 bg-opacity-90">
-          <div className="max-w-md p-6  rounded-lg text-ef1897">
-            <h2 className="text-6xl text-[#ef1897] font-pixelify font-bold mb-4">{title} Events</h2>
-            <ul>
+        <div className="fixed bottom-20 top-20 bg-black z-20 bg-opacity-70 backdrop-blur-xl left-80 right-80 flex justify-center items-center rounded-2xl">
+          <div className="p-6 flex jusitfy-center items-center flex-col">
+            <h2 className="text-8xl text-[#ef1897] font-pixelify font-bold mb-4">
+              {title} Events
+            </h2>
+            <hr className="w-full my-1" />
+            <ul className="text-center">
               {events.map((event, index) => (
-                <li key={index} className="text-lg  text-[#ef1897]  mb-2">
-                  <a href={`#${event}`} className="block p-2 hover:bg-ef1897 hover:text-white rounded-md">
+                <li
+                  key={index}
+                  className="text-2xl text-primary2 mb-1 font-spacegrostek font-bold"
+                >
+                  <a
+                    href={`#${event}`}
+                    className="block p-2 hover:bg-ef1897 hover:text-white rounded-md"
+                  >
                     {event}
                   </a>
                 </li>
               ))}
             </ul>
+            <hr className="w-1/2 my-1" />
+
             <button
-              className="mt-4 p-2 bg-ef1897 text-white rounded-md hover:bg-opacity-80"
+              className="mt-2 text-nbg rounded-lg hover:text-[] font-silkscreen text-2xl"
               onClick={togglePopup}
             >
               Close
@@ -47,4 +58,3 @@ const Cards = ({ title, bgImg, events }) => {
 };
 
 export default Cards;
-

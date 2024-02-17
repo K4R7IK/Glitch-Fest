@@ -21,7 +21,7 @@ function App() {
         <Nav />
         <HeroNew />
       </div>
-      <div>
+      <div className="h-screen">
         <img src={Bgabout} className="-z-10 absolute object-cover w-screen brightness-[70%]" />
         <About />
       </div>
