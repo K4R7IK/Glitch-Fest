@@ -7,7 +7,7 @@ import College from "../assets/icons/College.svg";
 
 function Demographs() {
   return (
-    <div className="bg-black h-64 p-40 flex justify-around items-center">
+    <div className="bg-black h-64 p-40 flex justify-around items-center text-nbg">
 
       <div className="flex flex-col items-center">
         <img src={Registration} alt="Registration" className="icon h-40" />

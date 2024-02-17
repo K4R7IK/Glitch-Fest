@@ -6,6 +6,10 @@ import Nav from "./components/nav/Nav";
 import Events from "./components/Events";
 import AboutGBU from "./components/AboutGBU";
 import AboutGlitch from "./components/AboutGlitch";
+import Footer from "./components/Footer";
+import Sponsor from "./components/soponsor";
+import Demographs from "./components/Demographs";
+import BgGlitch from './assets/Videos/skull3.gif';
 
 function App() {
   return (
@@ -34,6 +38,11 @@ function App() {
         />
         <Events />
       </div>
+      <Demographs />
+      <div className="flex justify-center items-center bg-black my-[0.5px]">
+      <Sponsor />
+      </div>
+      <Footer />
     </>
   );
 }
