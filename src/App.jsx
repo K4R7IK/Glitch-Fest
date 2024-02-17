@@ -1,11 +1,13 @@
 import "./App.css";
 import HeroNew from "./components/HeroNew";
-import bgVid from "./assets/Videos/cosmos.gif";
+import BgVid from "./assets/Videos/cosmos.gif";
 import BgImage from "./assets/Videos/skull.gif";
 import Nav from "./components/nav/Nav";
 import Events from "./components/Events";
-import About from "./components/About";
+import AboutGBU from "./components/AboutGBU";
 import Bgabout from "./assets/Videos/camille-unknown-barcelona21xx-full.gif";
+import AboutGlitch from "./components/AboutGlitch";
+import BgGlitch from './assets/Videos/skull3.gif';
 
 function App() {
   return (
@@ -22,12 +24,16 @@ function App() {
         <HeroNew />
       </div>
       <div className="h-screen">
+        {/* <img src={BgGlitch} className="-z-10 absolute object-cover brightness-[70%]" /> */}
+        <AboutGlitch />
+      </div>
+      <div className="h-screen">
         <img src={Bgabout} className="-z-10 absolute object-cover w-screen brightness-[70%]" />
-        <About />
+        <AboutGBU />
       </div>
       <div
         style={{
-          backgroundImage: `url(${bgVid})`,
+          backgroundImage: `url(${BgVid})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
