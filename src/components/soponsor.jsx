@@ -3,7 +3,7 @@ import '../components/styles/Sponsor.css'
 
 const Sponsor= () => {
   return (
-    <div className="container mx-auto mt-8">
+    <div className="container bg-black py-4">
       <ul className="grid grid-cols-auto-fill grid-rows-logo-gap">
         <li className="flex items-center justify-center">
           <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg" className="logo-img" alt="Coca Cola" />

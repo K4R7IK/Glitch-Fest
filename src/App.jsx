@@ -36,11 +36,13 @@ function App() {
           src={BgVid}
           className="-z-1 absolute h-full w-full object-cover opacity-50"
         />
-        <Demographs />
         <Events />
-        <Sponsor />
-        <Footer />
       </div>
+      <Demographs />
+      <div className="flex justify-center items-center bg-black my-[0.5px]">
+      <Sponsor />
+      </div>
+      <Footer />
     </>
   );
 }

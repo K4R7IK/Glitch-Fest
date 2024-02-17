@@ -39,7 +39,7 @@ const Events = () => {
   return (
     <>
       <section className="flex justify-center items-center gap-6 flex-col pb-6">
-        <h1 className="text-9xl text-white font-silkscreen uppercase mt-5 z-[1]">
+        <h1 className="text-9xl text-white font-silkscreen uppercase mt-5 z-0">
           Events
         </h1>
         <hr className="bg-nbg h-auto w-5/6 mb-5" />

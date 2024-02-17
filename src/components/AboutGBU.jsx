@@ -19,7 +19,7 @@ function AboutGBU() {
             <img src={logo_gbu} alt="GBU map" className="grayscale rounded-xl" />
           </div>
           <div className="bg-bg bg-opacity-15 backdrop-blur-sm rounded-xl text-xl h-full leading-7 w-1/2">
-            <p className="font-spacegrostek text-2xl text-nbg mt-10 w-[95%] leading-relaxed pl-4">
+            <p className="font-space-grotesk text-2xl text-nbg mt-10 w-[95%] leading-relaxed pl-4">
               Situated in the tech-bowl of India, Greater Noida, Gautam Buddha
               University is a leading institution that offers graduate and
               post-graduate degrees in diverse fields of education. GBU polishes
@@ -48,7 +48,7 @@ function AboutGBU() {
   //           Gautam Buddha University
   //         </h1>
   //         <hr className="text-nbg w-3/4 my-2" />
-  //         <p className="font-spacegrostek text-2xl text-nbg mt-10 w-[95%] leading-relaxed pl-4">
+  //         <p className="font-space-grotesk text-2xl text-nbg mt-10 w-[95%] leading-relaxed pl-4">
   //           Situated in the tech-bowl of India, Greater Noida, Gautam Buddha
   //           University is a leading institution that offers graduate and
   //           post-graduate degrees in diverse fields of education. GBU polishes

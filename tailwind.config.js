@@ -8,7 +8,7 @@ export default {
         urbanist: ["Urbanist", "sans-serif"],
         silkscreen: ["Silkscreen", "sans-serif"],
         pixelify: ["Pixelify Sans", "sans-serif"],
-        spacegrotesk: ["Space Grotesk", "sans-serif"],
+        'space-grotesk': ["Space Grotesk", "sans-serif"],
       },
       colors:{
         bg: "#1f232c",
