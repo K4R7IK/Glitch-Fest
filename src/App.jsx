@@ -1,6 +1,5 @@
 import "./App.css";
 import HeroNew from "./components/HeroNew";
-import BgVid from "./assets/Videos/cosmos.gif";
 import BgImage from "./assets/Videos/skull.gif";
 import Nav from "./components/nav/Nav";
 import Events from "./components/Events";
@@ -9,7 +8,6 @@ import AboutGlitch from "./components/AboutGlitch";
 import Footer from "./components/Footer";
 import Sponsor from "./components/soponsor";
 import Demographs from "./components/Demographs";
-import BgGlitch from './assets/Videos/skull3.gif';
 
 function App() {
   return (
@@ -31,16 +29,16 @@ function App() {
       <div className="h-screen bg-black">
         <AboutGBU />
       </div>
-      <div className="bg-black -z-10">
-        <img
-          src={BgVid}
-          className="-z-1 absolute h-full w-full object-cover opacity-50"
-        />
+      <div className="min-h-screen">
         <Events />
       </div>
-      <Demographs />
-      <div className="flex justify-center items-center bg-black my-[0.5px]">
-      <Sponsor />
+      <div className="bg-black">
+        <Demographs />
+      </div>
+      <div className="flex flex-col justify-center items-center bg-black gap-1">
+        <hr className="text-white w-full" />
+        <Sponsor />
+        <hr className="text-white w-full" />
       </div>
       <Footer />
     </>

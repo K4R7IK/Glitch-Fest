@@ -1,4 +1,5 @@
 import React from "react";
+import BgVid from "../assets/Videos/cosmos.gif";
 import Cards from "./cards/Cards";
 import bgImage from "../assets/Videos/cracks.jpg";
 
@@ -38,15 +39,18 @@ const Events = () => {
   ];
   return (
     <>
-      <section className="flex justify-center items-center gap-6 flex-col pb-6">
-        <h1 className="text-9xl text-white font-silkscreen uppercase mt-5 z-0">
-          Events
-        </h1>
-        <hr className="bg-nbg h-auto w-5/6 mb-5" />
-        <Cards title="Day 1" bgImg={bgImage} events={day1} />
-        <Cards title="Day 2" bgImg={bgImage} events={day2} />
-        <Cards title="Day 3" bgImg={bgImage} events={day3} />
-      </section>
+      <div className="h-full bg-black -z-10">
+        <img src={BgVid} className="h-full w-full absolute object-cover z-0 opacity-50" />
+        <section className="flex justify-center items-center gap-6 flex-col h-screen">
+          <h1 className="text-9xl text-white font-silkscreen uppercase z-[1]">
+            Events
+          </h1>
+          <hr className="bg-nbg h-auto w-5/6 z-[1]" />
+          <Cards title="Day 1" bgImg={bgImage} events={day1} />
+          <Cards title="Day 2" bgImg={bgImage} events={day2} />
+          <Cards title="Day 3" bgImg={bgImage} events={day3} />
+        </section>
+      </div>
     </>
   );
 };
