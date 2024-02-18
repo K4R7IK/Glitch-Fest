@@ -8,7 +8,7 @@ import AboutGlitch from "./components/AboutGlitch";
 import Footer from "./components/Footer";
 import Sponsor from "./components/soponsor";
 import Demographs from "./components/Demographs";
-
+import FaqSection from "./components/FaqSection";
 function App() {
   return (
     <>
@@ -39,6 +39,9 @@ function App() {
         <hr className="text-white w-full" />
         <Sponsor />
         <hr className="text-white w-full" />
+      </div>
+      <div  className="bg-black">
+      <FaqSection />
       </div>
       <Footer />
     </>

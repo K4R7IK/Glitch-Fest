@@ -1,7 +1,9 @@
 import React from "react";
 import BgVid from "../assets/Videos/cosmos.gif";
 import Cards from "./cards/Cards";
-import bgImage from "../assets/Videos/cracks.jpg";
+import bgImage1 from "../assets/ascii1.png"
+import bgImage2 from "../assets/ascii2.png"
+import bgImage3 from "../assets/ascii1.png"
 
 const Events = () => {
   const day1 = [
@@ -40,15 +42,15 @@ const Events = () => {
   return (
     <>
       <div className="h-full bg-black -z-10">
-        <img src={BgVid} className="h-full w-full absolute object-cover z-0 opacity-50" />
+        <img src={BgVid} className="h-full w-full absolute object-cover z-0 " />
         <section className="flex justify-center items-center gap-6 flex-col h-screen">
           <h1 className="text-9xl text-white font-silkscreen uppercase z-[1]">
             Events
           </h1>
           <hr className="bg-nbg h-auto w-5/6 z-[1]" />
-          <Cards title="Day 1" bgImg={bgImage} events={day1} />
-          <Cards title="Day 2" bgImg={bgImage} events={day2} />
-          <Cards title="Day 3" bgImg={bgImage} events={day3} />
+          <Cards title="Day 1" bgImg={bgImage1} events={day1} />
+          <Cards title="Day 2" bgImg={bgImage2} events={day2} />
+          <Cards title="Day 3" bgImg={bgImage3} events={day3} />
         </section>
       </div>
     </>
