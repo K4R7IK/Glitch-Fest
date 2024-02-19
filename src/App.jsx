@@ -29,7 +29,7 @@ function App() {
       <div className="h-screen bg-black">
         <AboutGBU />
       </div>
-      <div className="min-h-screen">
+      <div className="min-h-max">
         <Events />
       </div>
       <div className="bg-black">
@@ -40,9 +40,9 @@ function App() {
         <Sponsor />
         <hr className="text-white w-full" />
       </div>
-      <div  className="bg-black">
+      {/* <div  className="bg-black"> */}
       <FaqSection />
-      </div>
+      {/* </div> */}
       <Footer />
     </>
   );

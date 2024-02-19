@@ -20,39 +20,15 @@ function Footer() {
               />
             </div>
             <div className="w-full lg:w-4/12 px-4 ">
-              <h4 className=" text-8xl font-silkscreen text-white ">
-                Glitch
-              </h4>
+              <h4 className=" text-8xl font-silkscreen text-white ">Glitch</h4>
               <h5 className="text-md mt-1 mb-1 text-white">
                 Embrace Imperfections, Elevate Innovation. An insight into
                 Gautam Buddha University’s biggest annual tech fest.
               </h5>
-              <div className="mt-6 lg:mb-0 mb-6">
-                <button
-                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-twitter"></i>
-                </button>
-                <button
-                  className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-facebook-square"></i>
-                </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-dribbble"></i>
-                </button>
-                <button
-                  className="bg-white text-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i className="fab fa-github"></i>
-                </button>
-              </div>
+              {/* <div className="mt-6 lg:mb-0 mb-6"> */}
+              {/*   <i class="fa-solid fa-location-dot"></i> */}
+              {/*   <i class="fa-brands fa-twitter"></i> */}
+              {/* </div> */}
             </div>
             <div className="w-full lg:w-6/12 px-4 py-8">
               <div className="flex flex-wrap items-top mb-6">
@@ -64,7 +40,7 @@ function Footer() {
                     <li>
                       <a
                         className="hover:text-white font-semibold block pb-2 text-sm"
-                        href="#About"
+                        href="#AboutGlitch"
                       >
                         About Us
                       </a>
@@ -72,7 +48,7 @@ function Footer() {
                     <li>
                       <a
                         className="hover:text-white font-semibold block pb-2 text-sm"
-                        href="#Hackathon"
+                        href=""
                       >
                         Hackathon
                       </a>
@@ -80,7 +56,7 @@ function Footer() {
                     <li>
                       <a
                         className="hover:text-white font-semibold block pb-2 text-sm"
-                        href="#Events"
+                        href=""
                       >
                         Events
                       </a>
@@ -88,7 +64,7 @@ function Footer() {
                     <li>
                       <a
                         className="hover:text-white font-semibold block pb-2 text-sm"
-                        href="#Contact"
+                        href=""
                       >
                         Contact
                       </a>
@@ -103,7 +79,7 @@ function Footer() {
                     <li>
                       <a
                         className="hover:text-white font-semibold block pb-2 text-sm"
-                        href="#"
+                        href="#Demographs"
                       >
                         Demographs
                       </a>
@@ -114,14 +90,6 @@ function Footer() {
                         href="#"
                       >
                         Terms &amp; Conditions
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="hover:text-white font-semibold block pb-2 text-sm"
-                        href="#"
-                      >
-                        Privacy Policy
                       </a>
                     </li>
                     <li>

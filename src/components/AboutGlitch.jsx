@@ -1,9 +1,9 @@
 import React from "react";
-import SideImg from "../assets/Videos/skull3.gif";
+import SideImg from "../assets/Videos/coding-slow.gif";
 const AboutGlitch = () => {
   return (
     <>
-      <div className="h-full flex flex-row-reverse">
+      <div className="h-full flex flex-row-reverse bg-black" id="AboutGlitch">
         <img src={SideImg} className="object-cover brightness-[70%]" />
         <div className="bg-black h-full w-1/2 pt-20 pl-16">
           <h1 className="text-nbg text-5xl font-silkscreen">About</h1>

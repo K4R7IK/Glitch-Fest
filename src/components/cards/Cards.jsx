@@ -9,19 +9,14 @@ const Cards = ({ title, bgImg, events }) => {
 
   return (
     <div
-      className="rounded-xl bg-black w-3/5 h-56 flex items-center justify-around relative cursor-pointer border-primary1 border-opacity-50 border"
-      // style={{
-      //   backgroundImage: `url(${bgImg})`,
-      //   backgroundSize: "cover",
-      //   backgroundPosition: "center",
-      // }}
+      className="rounded-xl bg-black w-3/5 h-[20%] flex items-center justify-around relative cursor-pointer border-primary1 border-opacity-50 border"
       onClick={togglePopup}
     >
       <h1 className="text-nbg lg:text-9xl uppercase font-pixelify  text-6xl">
         {title}
       </h1>
       <img src={bgImg} alt="asciiArt" className="h-full" />
-     
+
       {showPopup && (
         <div className="fixed bottom-20 top-20 bg-black z-20 bg-opacity-70 backdrop-blur-xl left-80 right-80 flex justify-center items-center rounded-2xl">
           <div className="p-6 flex jusitfy-center items-center flex-col">

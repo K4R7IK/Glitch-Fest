@@ -41,7 +41,7 @@ const Events = () => {
   ];
   return (
     <>
-      <div className="h-full bg-black -z-10">
+      <div className="h-full bg-black -z-10" id="Events">
         <img src={BgVid} className="h-full w-full absolute object-cover z-0 " />
         <section className="flex justify-center items-center gap-6 flex-col h-screen">
           <h1 className="text-9xl text-white font-silkscreen uppercase z-[1]">
