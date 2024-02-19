@@ -40,9 +40,9 @@ function App() {
         <Sponsor />
         <hr className="text-white w-full" />
       </div>
-      {/* <div  className="bg-black"> */}
-      <FaqSection />
-      {/* </div> */}
+      <div className="bg-black">
+        <FaqSection />
+      </div>
       <Footer />
     </>
   );
