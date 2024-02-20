@@ -35,11 +35,11 @@ function App() {
       <div className="bg-black">
         <Demographs />
       </div>
-      <div className="flex flex-col justify-center items-center bg-black gap-1">
-        <hr className="text-white w-full" />
-        <Sponsor />
-        <hr className="text-white w-full" />
-      </div>
+      {/* <div className="flex flex-col justify-center items-center bg-black gap-1"> */}
+      {/*   <hr className="text-white w-full" /> */}
+        {/* <Sponsor /> */}
+      {/*   <hr className="text-white w-full" /> */}
+      {/* </div> */}
       <div className="bg-black">
         <FaqSection />
       </div>

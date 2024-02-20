@@ -42,12 +42,12 @@ const Events = () => {
   return (
     <>
       <div className="h-full bg-black -z-10" id="Events">
-        <img src={BgVid} className="h-full w-full absolute object-cover z-0 " />
+        <img src={BgVid} className="h-full w-full absolute object-cover z-0 opacity-70" />
         <section className="flex justify-center items-center gap-6 flex-col h-screen">
-          <h1 className="text-9xl text-white font-silkscreen uppercase z-[1]">
+          <h1 className="text-9xl text-white font-pixelify uppercase z-[1]">
             Events
           </h1>
-          <hr className="bg-nbg h-auto w-5/6 z-[1]" />
+          <hr className="w-5/6 z-[1]" />
           <Cards title="Day 1" bgImg={bgImage1} events={day1} />
           <Cards title="Day 2" bgImg={bgImage2} events={day2} />
           <Cards title="Day 3" bgImg={bgImage3} events={day3} />

@@ -25,10 +25,12 @@ function Footer() {
                 Embrace Imperfections, Elevate Innovation. An insight into
                 Gautam Buddha University’s biggest annual tech fest.
               </h5>
-              {/* <div className="mt-6 lg:mb-0 mb-6"> */}
-              {/*   <i class="fa-solid fa-location-dot"></i> */}
-              {/*   <i class="fa-brands fa-twitter"></i> */}
-              {/* </div> */}
+              <div className="mt-5 lg:mb-0 text-white text-2xl flex jusitfy-center items-center gap-3">
+                <a href=""><i class="fa-solid fa-at"/></a>
+                <a href=""><i class="fa-brands fa-twitter"/></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"/></a>
+                <a href=""><i class="fa-brands fa-instagram"/></a>
+              </div>
             </div>
             <div className="w-full lg:w-6/12 px-4 py-8">
               <div className="flex flex-wrap items-top mb-6">

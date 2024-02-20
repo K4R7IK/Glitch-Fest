@@ -27,7 +27,7 @@ const FaqSection = () => {
 
   return (
     <div className="container mx-auto w-1/2  text-white p-16">
-      <h1 className="text-6xl w-full my-8 flex justify-center align-middle font-pixelify">
+      <h1 className="text-5xl w-full my-8 flex justify-center align-middle font-pixelify">
         Frequently Asked Questions
       </h1>
 

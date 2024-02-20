@@ -12,7 +12,7 @@ function Demographs() {
       <div className="flex flex-col items-center">
         <img src={Registration} alt="Registration" className="icon h-40" />
         <p className="font-bold text-4xl mt-2">5000+</p>
-        <p className="font-bold mt-2">Registration</p>
+        <p className="font-bold mt-2">Registrations</p>
       </div>
 
       <div className="flex flex-col items-center">
@@ -24,13 +24,13 @@ function Demographs() {
       <div className="flex flex-col items-center">
         <img src={College} alt="College" className="icon h-40" />
         <p className="font-bold text-4xl mt-2">25+</p>
-        <p className="font-bold mt-2">College involved</p>
+        <p className="font-bold mt-2">Colleges involved</p>
       </div>
 
       <div className="flex flex-col items-center">
         <img src={Location} alt="Location" className="icon h-40" />
         <p className="font-bold text-4xl mt-2">Delhi-NCR</p>
-        <p className="font-bold mt-2">College involved</p>
+        <p className="font-bold mt-2">Colleges involved</p>
       </div>
 
       <div className="flex flex-col items-center">
