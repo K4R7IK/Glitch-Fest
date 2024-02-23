@@ -11,36 +11,38 @@ function Demographs() {
       <div className="flex justify-center items-center">
         <img src={Registration} alt="Registration" className="h-20" />
         <div className="ml-2 md:ml-0">
-          <p className="font-bold text-lg md:text-xl">5000+</p>
-          <p className="font-bold text-xs">Registrations</p>
+          <p className="font-bold text-lg md:text-xl lg:text-2xl">5000+</p>
+          <p className="font-bold text-xs md:text-sm lg:text-xl">
+            Registrations
+          </p>
         </div>
       </div>
       <div className="flex justify-center items-center">
         <img src={Footfall} alt="Footfall" className="h-20" />
         <div className="ml-2 md:ml-0">
-          <p className="font-bold text-lg md:text-xl">8000</p>
-          <p className="font-bold text-xs">Footfall</p>
+          <p className="font-bold text-lg md:text-xl lg:text-2xl">8000</p>
+          <p className="font-bold text-xs md:text-sm lg:text-xl">Footfall</p>
         </div>
       </div>
       <div className="flex justify-center items-center">
         <img src={College} alt="Colleges" className="h-20" />
         <div className="ml-2 md:ml-0">
-          <p className="font-bold text-lg md:text-xl">25+</p>
-          <p className="font-bold text-xs">Colleges</p>
+          <p className="font-bold text-lg md:text-xl lg:text-2xl">25+</p>
+          <p className="font-bold text-xs md:text-sm lg:text-xl">Colleges</p>
         </div>
       </div>
       <div className="flex justify-center items-center">
         <img src={Reach} alt="Reach/Views" className="h-20" />
         <div className="ml-2 md:ml-0">
-          <p className="font-bold text-lg md:text-xl">4000+</p>
-          <p className="font-bold text-xs">Reach/Views</p>
+          <p className="font-bold text-lg md:text-xl lg:text-2xl">4000+</p>
+          <p className="font-bold text-xs md:text-sm lg:text-xl">Reach/Views</p>
         </div>
       </div>
       <div className="flex justify-center items-center">
         <img src={Location} alt="Location" className="h-20" />
         <div className="ml-2 md:ml-0">
-          <p className="font-bold text-lg md:text-xl">Delhi-NCR</p>
-          <p className="font-bold text-xs">Location</p>
+          <p className="font-bold text-lg md:text-xl lg:text-2xl">Delhi-NCR</p>
+          <p className="font-bold text-xs md:text-sm lg:text-xl">Location</p>
         </div>
       </div>
     </div>

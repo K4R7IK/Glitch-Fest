@@ -15,7 +15,7 @@ const AboutGlitch = () => {
           Glitch
         </h1>
         <hr className="text-nbg w-3/4 my-3 mx-auto" />
-        <p className="font-space-grotesk text-white text-justify px-3 text-base pb-2 lg:text-lg xl:text-xl">
+        <p className="font-space-grotesk text-white text-justify px-3 text-base pb-2 lg:text-lg xl:text-xl xl:w-2/3 xl:mx-auto">
           Glitch Tech Fest 2024 stands as an unparalleled opportunity for
           students to flaunt their technical acumen amid a dynamic milieu of
           peers and industry luminaries. With a rich tapestry of events spanning

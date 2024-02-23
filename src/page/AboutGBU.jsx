@@ -15,7 +15,7 @@ const AboutGBU = () => {
           Gautam Buddha University
         </h1>
         <hr className="text-nbg w-3/4 my-3 mx-auto" />
-        <p className="font-space-grotesk text-white text-justify px-3 text-base pb-2 lg:text-lg xl:text-xl">
+        <p className="font-space-grotesk text-white text-justify px-3 text-base pb-2 lg:text-lg xl:text-xl xl:w-2/3 xl:mx-auto">
           Situated in the tech-bowl of India, Greater Noida, Gautam Buddha
           University is a leading institution that offers graduate and
           post-graduate degrees in diverse fields of education. GBU polishes the

@@ -30,7 +30,7 @@ const FaqSection = () => {
       <div className="md:flex md:justify-center md:items-center md:bg-black md:flex-col">
         <hr className="md:w-5/6" />
         <div className="text-white bg-black flex justify-center items-center flex-col pt-3 md:w-5/6">
-          <h1 className="text-5xl w-full font-silkscreen text-center">FAQ</h1>
+          <h1 className="text-5xl w-full font-silkscreen text-center lg:text-6xl">FAQ</h1>
 
           {faqData.map((faq, index) => (
             <div key={index} className="w-full lg:w-1/2">

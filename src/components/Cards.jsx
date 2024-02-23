@@ -16,7 +16,7 @@ const Cards = ({ title, bgImg, events }) => {
       {showPopup && (
         <div className="fixed flex justify-center items-center z-50 top-0 bottom-0 left-0 right-0 h-full">
           <div className="bg-black bg-opacity-70 backdrop-blur-lg rounded-2xl p-4 w-4/5 max-w-lg lg:max-w-xl xl:max-w-2xl flex flex-col justify-center items-center">
-            <h2 className="text-4xl text-primary1 font-silkscreen mb-4 text-center p-2">
+            <h2 className="text-4xl text-primary1 font-silkscreen mb-4 text-center p-2 lg:text-5xl">
               {title} Events
             </h2>
             <hr className="w-full my-1" />
@@ -24,7 +24,7 @@ const Cards = ({ title, bgImg, events }) => {
               {events.map((event, index) => (
                 <li
                   key={index}
-                  className="text-lg text-primary2 mb-1 font-spacegrostek font-medium"
+                  className="text-lg text-primary2 mb-1 font-spacegrostek font-medium lg:text-xl"
                 >
                   <a href={`#${event}`} className="block p-2 rounded-md">
                     {event}
@@ -35,7 +35,7 @@ const Cards = ({ title, bgImg, events }) => {
             <hr className="w-1/2 my-1 mx-auto" />
 
             <button
-              className="text-nbg rounded-lg font-silkscreen text-lg text-center"
+              className="text-nbg rounded-lg font-silkscreen text-lg text-center lg:text-xl"
               onClick={togglePopup}
             >
               Close

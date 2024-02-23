@@ -13,7 +13,7 @@ function Footer() {
             <img
               src={logo}
               alt="glitch"
-              className="animate-spin lg:w-1/5 w-1/2 md:w-1/3"
+              className="animate-spin lg:w-1/6 w-1/2 md:w-1/3"
               style={rotateAnimation}
             />
             <div className="w-full lg:w-4/12 px-4">
