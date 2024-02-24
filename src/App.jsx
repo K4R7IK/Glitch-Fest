@@ -1,24 +1,37 @@
+import React from "react";
+import { ReactDOM } from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import "./App.css";
 import Home from "./page/Home";
-import AboutGlitch from "./page/AboutGlitch";
-import AboutGBU from "./page/AboutGBU";
-import Events from "./page/Events";
-import Demographs from "./page/Demographs";
-import Footer from "./page/Footer";
-import Faq from "./page/Faq";
+import HFhackathon from "./page/HFhackathon";
+import Page404 from "./page/Page404";
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+  {
+    path: '/Hackathon',
+    element: <HFhackathon />,
+  },
+  {
+    path: '/Hackathon/#HFsponsor',
+    element: <HFhackathon />,
+  },
+  {
+    path: '*',
+    element: <Page404 />
+  },
+]);
 
 function App() {
   return (
     <>
-      <Home/>
-      <AboutGlitch/>
-      <AboutGBU/>
-      <Events />
-      <Demographs/>
-      <Faq/>
-      <Footer/>
+      <RouterProvider router={router} />
     </>
   );
 }
 
-export default App;
+export default App; 
