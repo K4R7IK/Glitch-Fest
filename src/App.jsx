@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <HFhackathon />,
   },
   {
-    path: '/Hackathon/#HFsponsor',
+    path: '/Hackathon/',
     element: <HFhackathon />,
   },
   {
