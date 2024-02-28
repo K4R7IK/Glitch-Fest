@@ -8,10 +8,19 @@ const Cards = ({ title, bgImg, events }) => {
   };
 
   return (
-    <div className="relative rounded-xl w-5/6 md:w-4/5 lg:max-w-screen-md border border-primary1" onClick={togglePopup}>
-      <img className="w-full h-auto object-cover rounded-xl brightness-75" src={bgImg} alt="Image" />
+    <div
+      className="relative rounded-xl w-5/6 md:w-4/5 lg:max-w-screen-md border border-primary1"
+      onClick={togglePopup}
+    >
+      <img
+        className="w-full h-auto object-cover rounded-xl brightness-75"
+        src={bgImg}
+        alt="Image"
+      />
       <div className="absolute inset-0 flex items-center justify-center">
-        <h2 className="text-5xl text-white font-silkscreen p-4 lg:text-7xl xl:text-8xl">{title}</h2>
+        <h2 className="text-5xl text-white font-silkscreen p-4 lg:text-7xl xl:text-8xl">
+          {title}
+        </h2>
       </div>
       {showPopup && (
         <div className="fixed flex justify-center items-center z-50 top-0 bottom-0 left-0 right-0 h-full">
@@ -26,9 +35,9 @@ const Cards = ({ title, bgImg, events }) => {
                   key={index}
                   className="text-lg text-primary2 mb-1 font-spacegrostek font-medium lg:text-xl"
                 >
-                  <a href={`#${event}`} className="block p-2 rounded-md">
-                    {event}
-                  </a>
+                  {/* <a href={`#${event}`} className="block p-2 rounded-md"> */}
+                  {event}
+                  {/* </a> */}
                 </li>
               ))}
             </ul>
