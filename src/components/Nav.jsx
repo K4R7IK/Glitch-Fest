@@ -10,6 +10,7 @@ const Nav = () => {
       <a class="hover:text-primary2"  href="#AboutGlitch">About</a>
       <a class="hover:text-primary2"  href="#Events">Events</a>
         < Link to="/hackathon/" className="hover:text-primary2 ">Hackathon</Link>
+        < Link to="/broucher/" className="hover:text-primary2 ">Broucher</Link>
       <a class="hover:text-primary2"  href="https://linktr.ee/Anurag_Rawal_04">Contact</a>
       </div>
     </nav>

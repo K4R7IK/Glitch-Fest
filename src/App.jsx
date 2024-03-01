@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactDOM } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Broucher from "./components/Broucher";
 
 import "./App.css";
 import Home from "./page/Home";
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: '/Hackathon/',
     element: <HFhackathon />,
+  },
+  {
+    path: '/Broucher/',
+    element: <Broucher/>,
   },
   {
     path: '*',
