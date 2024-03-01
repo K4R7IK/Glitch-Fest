@@ -34,30 +34,31 @@ function HFfooter() {
               </div>
 
               <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-white lg:text-left">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
-                cum itaque neque.
+🚀 HeckFed Hackathon 2024: 24-Hours of EdTech Brilliance!
+
+Join us for an electrifying 24-hour hackathon hosted by HeckFed Community, where innovation meets education technology. Dive into the future with tracks like Ar/VR, cybersecurity, fintech, web3, agriculture, open innovation, healthcare, and the star of the show – EdTech!
               </p>
             </div>
 
-            <ul
-              className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
-            >
-              <li>
-                <a className="text-white transition hover:text-white/75" href="#"> About </a>
-              </li>
+            {/* <ul */}
+            {/*   className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12" */}
+            {/* > */}
+            {/*   <li> */}
+            {/*     <a className="text-white transition hover:text-white/75" href="#"> About </a> */}
+            {/*   </li> */}
 
-              <li>
-                <a className="text-white transition hover:text-white/75" href="#"> Services </a>
-              </li>
+            {/*   <li> */}
+            {/*     <a className="text-white transition hover:text-white/75" href="#"> Services </a> */}
+            {/*   </li> */}
 
-              <li>
-                <a className="text-white transition hover:text-white/75" href="#"> Projects </a>
-              </li>
+            {/*   <li> */}
+            {/*     <a className="text-white transition hover:text-white/75" href="#"> Projects </a> */}
+            {/*   </li> */}
 
-              <li>
-                <a className="text-white transition hover:text-white/75" href="#"> Blog </a>
-              </li>
-            </ul>
+            {/*   <li> */}
+            {/*     <a className="text-white transition hover:text-white/75" href="#"> Blog </a> */}
+            {/*   </li> */}
+            {/* </ul> */}
           </div>
 
           <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">

@@ -4,6 +4,7 @@ import HFstickey from "../components/HFstickey";
 import HFthemes from "../components/HFthemes";
 import HFprizepool from "../components/HFprizepool";
 import HFdemographs from "../components/HFdemographs";
+import Demographs from "../components/Demographs";
 import HFsponsors from "../components/HFsponsors";
 import HFgallery from "../components/HFgallery";
 import HFroadmap from "../components/HFroadmap";
@@ -26,11 +27,12 @@ function HFhackathon() {
           <HFabout />
           <HFthemes />
           <HFprizepool />
-          <HFdemographs />
-          <HFsponsors />
+          {/* <HFdemographs /> */}
+          <Demographs/>
+          {/* <HFsponsors /> */}
           <HFgallery />
-          <HFroadmap />
-          <HFourteam />
+          {/* <HFroadmap /> */}
+          {/* <HFourteam /> */}
           <HFfooter />
           <HFstickey/>
         </section>
