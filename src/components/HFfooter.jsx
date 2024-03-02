@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Link as LinkId } from "react-scroll"
 
 function HFfooter() {
   return (
@@ -6,9 +8,10 @@ function HFfooter() {
       <footer className="">
         <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
-            <a
+            <LinkId
+              smooth={true}
               className="inline-block rounded-full bg-primary1 p-2 text-white shadow transition hover:bg-teal-500 sm:p-3 lg:p-4"
-              href="#MainContent"
+              to={`HFlanding`}
             >
               <span className="sr-only">Back to top</span>
 
@@ -24,19 +27,22 @@ function HFfooter() {
                   clipRule="evenodd"
                 />
               </svg>
-            </a>
+            </LinkId>
           </div>
 
           <div className="lg:flex lg:items-end lg:justify-between">
             <div>
               <div className="flex justify-center text-primary1 lg:justify-start">
-                <div className="h-12 w-12 bg-primary1"> </div> <div className="text-center text-4xl pl-2 font-extrabold font-mono"> Hackfed </div>
+                <a href="#HFlanding">
+                  <div className="h-12 w-12 bg-primary1"> </div>
+                </a>
+                <div className="text-center text-4xl pl-2 font-extrabold font-mono"> Hackfed </div>
               </div>
 
               <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-white lg:text-left">
-🚀 HeckFed Hackathon 2024: 24-Hours of EdTech Brilliance!
+                🚀 HeckFed Hackathon 2024: 24-Hours of EdTech Brilliance!
 
-Join us for an electrifying 24-hour hackathon hosted by HeckFed Community, where innovation meets education technology. Dive into the future with tracks like Ar/VR, cybersecurity, fintech, web3, agriculture, open innovation, healthcare, and the star of the show – EdTech!
+                Join us for an electrifying 24-hour hackathon hosted by HeckFed Community, where innovation meets education technology. Dive into the future with tracks like Ar/VR, cybersecurity, fintech, web3, agriculture, open innovation, healthcare, and the star of the show – EdTech!
               </p>
             </div>
 
@@ -68,11 +74,11 @@ Join us for an electrifying 24-hour hackathon hosted by HeckFed Community, where
 
         <p className="w-full text-center pb-2 text-gray-600">Made by {" "}
           <a href="https://github.com/ashish-kus/" target="_blank">
-             Ashish Kushwaha
+            Ashish Kushwaha
           </a>
           {" "}&{" "}
           <a href="https://bento.me/k4r7ik" target="_blank">
-            Kartik Kushwaha 
+            Kartik Kushwaha
           </a>
         </p>
 
