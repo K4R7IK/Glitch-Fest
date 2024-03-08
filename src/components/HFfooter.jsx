@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Link as LinkId } from "react-scroll"
+import { Link as LinkId } from "react-scroll";
 
 function HFfooter() {
   return (
@@ -33,16 +33,29 @@ function HFfooter() {
           <div className="lg:flex lg:items-end lg:justify-between">
             <div>
               <div className="flex justify-center text-primary1 lg:justify-start">
-                <a href="#HFlanding">
-                  <div className="h-12 w-12 bg-primary1"> </div>
-                </a>
-                <div className="text-center text-4xl pl-2 font-extrabold font-mono"> Hackfed </div>
+                <div className="text-primary2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-10 w-10"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                    />
+                  </svg>
+                </div>
+                <div className="text-center text-4xl pl-2 font-extrabold font-mono">
+                  Hackfed
+                </div>
               </div>
 
-              <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-white lg:text-left">
-                🚀 HeckFed Hackathon 2024: 24-Hours of EdTech Brilliance!
-
-                Join us for an electrifying 24-hour hackathon hosted by HeckFed Community, where innovation meets education technology. Dive into the future with tracks like Ar/VR, cybersecurity, fintech, web3, agriculture, open innovation, healthcare, and the star of the show – EdTech!
+              <p className="text-white text-center text-lg pl-12 lg:text-left">
+                This hackthon conducted under GLITCH TechFest 2024. Click on rotating circle to learn more!
               </p>
             </div>
 
@@ -52,15 +65,12 @@ function HFfooter() {
             {/*   <li> */}
             {/*     <a className="text-white transition hover:text-white/75" href="#"> About </a> */}
             {/*   </li> */}
-
             {/*   <li> */}
             {/*     <a className="text-white transition hover:text-white/75" href="#"> Services </a> */}
             {/*   </li> */}
-
             {/*   <li> */}
             {/*     <a className="text-white transition hover:text-white/75" href="#"> Projects </a> */}
             {/*   </li> */}
-
             {/*   <li> */}
             {/*     <a className="text-white transition hover:text-white/75" href="#"> Blog </a> */}
             {/*   </li> */}
@@ -72,7 +82,8 @@ function HFfooter() {
           </p>
         </div>
 
-        <p className="w-full text-center pb-2 text-gray-600">Made by {" "}
+        <p className="w-full text-center pb-2 text-gray-600">
+          Made by {" "} 
           <a href="https://github.com/ashish-kus/" target="_blank">
             Ashish Kushwaha
           </a>
@@ -81,11 +92,9 @@ function HFfooter() {
             Kartik Kushwaha
           </a>
         </p>
-
       </footer>
-
     </>
-  )
+  );
 }
 
 export default HFfooter;

@@ -2,6 +2,7 @@ import React from "react";
 
 // import home page components
 import Landing from "../components/Landing";
+import NewLanding from "../components/NewLanding"
 import AboutGlitch from "../components/AboutGlitch";
 import AboutGBU from "../components/AboutGBU";
 import Events from "../components/Events";
@@ -13,7 +14,7 @@ import HFhackathon from "./HFhackathon";
 function Home() {
   return (
     <>
-      <Landing />
+      <NewLanding />
       <AboutGlitch />
       <AboutGBU />
       <Events />

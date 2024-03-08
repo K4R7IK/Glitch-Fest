@@ -27,8 +27,8 @@ function HFhackathon() {
           <HFabout />
           <HFthemes />
           <HFprizepool />
-          {/* <HFdemographs /> */}
-          <Demographs/>
+          <HFdemographs />
+          {/* <Demographs/> */}
           {/* <HFsponsors /> */}
           <HFgallery />
           {/* <HFroadmap /> */}
