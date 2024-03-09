@@ -1,26 +1,32 @@
 import React from "react";
-import HFhero from "../components/HFhero";
-import HFstickey from "../components/HFstickey";
-import HFthemes from "../components/HFthemes";
-import HFprizepool from "../components/HFprizepool";
-import HFdemographs from "../components/HFdemographs";
-import Demographs from "../components/Demographs";
-import HFsponsors from "../components/HFsponsors";
-import HFgallery from "../components/HFgallery";
-import HFroadmap from "../components/HFroadmap";
-import HFourteam from "../components/HFourteam";
-import HFfooter from "../components/HFfooter";
-import HFabout from "../components/HFabout";
-import HFnavbar from "../components/HFnavbar";
-import BGImage from '../assets/BlackGrid.jpg';
-function HFhackathon() {
+import BGImage from "../assets/BlackGrid.jpg";
+import "ldrs/quantum";
+
+const HFhero = React.lazy(() => import("../components/HFhero"));
+const HFstickey = React.lazy(() => import("../components/HFstickey"));
+const HFthemes = React.lazy(() => import("../components/HFthemes"));
+const HFprizepool = React.lazy(() => import("../components/HFprizepool"));
+const HFdemographs = React.lazy(() => import("../components/HFdemographs"));
+const HFgallery = React.lazy(() => import("../components/HFgallery"));
+const HFfooter = React.lazy(() => import("../components/HFfooter"));
+const HFabout = React.lazy(() => import("../components/HFabout"));
+const HFnavbar = React.lazy(() => import("../components/HFnavbar"));
+
+const Loading = () => {
   return (
-    <>
-      <div
-        className="overflow-y-scroll bg-cover bg-fixed bg-center bg-no-repeat  shadow-lg"
-        style={{ backgroundImage: `url(${BGImage})`,
-        }}
-      >
+    <div className="bg-black flex items-center justify-center h-screen">
+      <l-quantum size="200" color="white"></l-quantum>
+    </div>
+  );
+};
+
+const HFhackathon = () => {
+  return (
+    <div
+      className="bg-cover bg-fixed bg-center bg-no-repeat overflow-x-hidden"
+      style={{ backgroundImage: `url(${BGImage})` }}
+    >
+      <React.Suspense fallback={<Loading/>}>
         <section className="bg-black bg-opacity-85">
           <HFnavbar />
           <HFhero />
@@ -28,16 +34,12 @@ function HFhackathon() {
           <HFthemes />
           <HFprizepool />
           <HFdemographs />
-          {/* <Demographs/> */}
-          {/* <HFsponsors /> */}
           <HFgallery />
-          {/* <HFroadmap /> */}
-          {/* <HFourteam /> */}
           <HFfooter />
-          <HFstickey/>
+          <HFstickey />
         </section>
-      </div>
-    </>
-  )
-}
+      </React.Suspense>
+    </div>
+  );
+};
 export default HFhackathon;

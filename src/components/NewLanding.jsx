@@ -1,20 +1,17 @@
 import React from "react";
-import BgVid from "../assets/Videos/codebg_trimmed.webm";
 import Glitch from "../components/Logo/Glitch";
 import Nav from "../components/Nav";
+import BgIMG from "../assets/Videos/output.gif";
 
 const Landing = () => {
   return (
     <div className="relative h-screen">
-      <video
-        src={BgVid}
-        autoPlay
-        loop
-        muted
-        className="absolute inset-0 w-full h-full object-cover -z-10 brightness-75"
+      <img
+        src={BgIMG}
+        alt="bg"
+        className="absolute w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-pink-500 bg-opacity-90 mix-blend-overlay backdrop-blur-[2px]"></div>
-
+      <div className="absolute bg-pink-500 mix-blend-overlay backdrop-blur-[2px] w-full h-full"></div>
       <Nav />
       <div className="absolute inset-0 flex items-center justify-center z-10 flex-col gap-3">
         <Glitch />

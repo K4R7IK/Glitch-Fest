@@ -7,14 +7,14 @@ function HFhero() {
 
   return (
     <>
-      <section id="HFlanding" class="body-font text-gray-600">
-        <div class="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row">
-          <div class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24">
-            <h1 class="mb-4 text-3xl font-bold text-primary1 sm:text-4xl">
-              <br class="  hidden lg:inline-block" />
+      <section id="HFlanding" className="body-font text-gray-600">
+        <div className="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row">
+          <div className="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24">
+            <h1 className="mb-4 text-3xl font-bold text-primary1 sm:text-4xl">
+              <br className="  hidden lg:inline-block" />
               Join HackFed's Hackathon Revolution
             </h1>
-            <p class="mb-8 leading-relaxed text-white">
+            <p className="mb-8 leading-relaxed text-white">
               Welcome to the most thrilling 24 hours of your tech journey!
               HackFed Community invites you to TechFest 2024, where innovation
               and education technology collide in a symphony of creativity. Join
@@ -27,11 +27,11 @@ function HFhero() {
               unite innovation and community spirit in a dynamic 24-hour
               hackathon at Gautam Buddha University.
             </p>
-            <div class="flex justify-center">
-              {/* <button class="inline-flex rounded border-0 bg-indigo-500 px-6 py-2 text-lg text-white hover:bg-indigo-600 focus:outline-none"> */}
+            <div className="flex justify-center">
+              {/* <button className="inline-flex rounded border-0 bg-indigo-500 px-6 py-2 text-lg text-white hover:bg-indigo-600 focus:outline-none"> */}
               {/*   Register */}
               {/* </button> */}
-              <button class="inline-flex rounded border-0 bg-purple-500 px-6 py-2 text-lg text-white hover:bg-gray-200 focus:outline-none font-bold">
+              <button className="inline-flex rounded border-0 bg-purple-500 px-6 py-2 text-lg text-white hover:bg-gray-200 focus:outline-none font-bold">
                 Discord
               </button>
               <button
@@ -44,9 +44,9 @@ function HFhero() {
               </button>
             </div>
           </div>
-          <div class="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
+          <div className="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
             <img
-              class="rounded object-cover object-center"
+              className="rounded object-cover object-center"
               alt="hero"
               src={HFPoster}
             />

@@ -1,39 +1,36 @@
 import React from "react";
-// import { ReactDOM } from "react";
-import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Broucher from "./components/Broucher";
-
 import "./App.css";
 import Home from "./page/Home";
 import HFhackathon from "./page/HFhackathon";
 import Page404 from "./page/Page404";
 
-// const router = createBrowserRouter([
 const router = createHashRouter([
   {
-    path: '/',
+    path: "/",
     element: <Home />,
   },
   {
-    path: '/hackathon/',
+    path: "/hackathon/",
     element: <HFhackathon />,
   },
   {
-    path: '/Broucher/',
-    element: <Broucher/>,
+    path: "/Broucher/",
+    element: <Broucher />,
   },
   {
-    path: '*',
-    element: <Page404 />
+    path: "*",
+    element: <Page404 />,
   },
 ]);
 
 function App() {
   return (
-    <>
+    <div className="bg-black">
       <RouterProvider router={router} />
-    </>
+    </div>
   );
 }
 
-export default App; 
+export default App;

@@ -4,9 +4,9 @@ function HFabout() {
   return (
     <>
       <section className="flex align-middle h-screen ">
-        <div class=" flex flex-col items-center justify-center px-5 py-8 mx-auto sm:px-6 lg:px-8 max-w-[56rem]">
-          <div class="flex flex-col mx-auto text-left">
-            <div class="w-full mx-auto">
+        <div className=" flex flex-col items-center justify-center px-5 py-8 mx-auto sm:px-6 lg:px-8 max-w-[56rem]">
+          <div className="flex flex-col mx-auto text-left">
+            <div className="w-full mx-auto">
               <h1 className="text-6xl sm:text-6xl mb-4 md:text-8xl  w-full font-mono text-primary1  font-extrabold">
                 Hackfed_
                 <span className="sm:text-6xl float-end text-gray-300 mt-2">
@@ -27,7 +27,7 @@ function HFabout() {
                 spirit of our dynamic community. From Ar/VR to EdTech, this is
                 where ideas take flight, and the future is shaped! HackFed -
                 Igniting Futures, One Hack at a Time! <br />
-                <span class="lg:text-2xl text-indigo-300">
+                <span className="lg:text-2xl text-indigo-300">
                   #HackFedHackathon #TechCommunity
                 </span>
               </p>
