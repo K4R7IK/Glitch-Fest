@@ -11,24 +11,20 @@ const Events = () => {
     "Exhibition",
     "Coding Challenges",
     "Face Painting",
+    "UI/UX Challenges",
     "Cinematography",
-    "Cosplay",
-    "Fashion Show",
     "Workshop/Bootcamps",
     "Bridge Making",
-    "Eco Cart",
+    "Band Wars",
   ];
   const day2 = [
+    "Fashion Show",
     "Hackathon Begins",
-    "UI/UX Challenges",
     "E-Sports",
     "Startup Challenge",
     "Tech Debate",
-    "Capture the flag",
-    "Tresure Hunt",
-    "Finding Mona",
-    "Jamming",
-    "Dance Competition",
+    "Capture the Flag",
+    "Treasure Hunt",
   ];
   const day3 = [
     "Closing Ceremony",
@@ -42,7 +38,7 @@ const Events = () => {
   return (
     <div className="relative h-full" id="Events">
       <div
-        className="absolute inset-0 bg-cover bg-center -z-10 brightness-75"
+        className="absolute inset-0 bg-cover bg-center brightness-75"
         style={{ backgroundImage: `url(${BgVid})` }}
       ></div>
       <div className="flex justify-center items-center flex-col gap-4 h-full pb-4">
