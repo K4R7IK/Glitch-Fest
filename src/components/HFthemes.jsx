@@ -4,10 +4,10 @@ function HFthemes() {
   return (
     <>
       <section className="text-gray-400 body-font ">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-primary1">Pitchfork Kickstarter Taxidermy</h1>
-            <p className="lg:w-1/2 w-full leading-relaxed text-opacity-80">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>
+            <h1 className="text-5xl lg:text-7xl font-bold mb-2 text-primary1 font-space-grotesk">Hackathon Themes</h1>
+            {/* <p className="lg:w-1/2 w-full leading-relaxed text-opacity-80">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p> */}
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="xl:w-1/3 md:w-1/2 p-4">

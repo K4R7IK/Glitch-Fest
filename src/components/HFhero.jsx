@@ -52,37 +52,37 @@ function HFhero() {
             />
           </div>
         </div>
-        <div className="m-auto max-w-7xl pt-8">
-          <h1 className="mb-7 text-center font-space-grotesk text-7xl font-bold text-primary1">
-            Hackathon Themes
-          </h1>
-          <ul className="flex list-none flex-wrap justify-evenly gap-2 p-0 lg:text-xl">
-            <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white">
-              AI/ML
-            </li>
-            <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white">
-              AR/VR
-            </li>
-            <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white">
-              CyberSecurity
-            </li>
-            <li className="m-1  rounded-md border border-primary1 px-4 py-2 text-white">
-              FinTech
-            </li>
-            <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white">
-              Web 3
-            </li>
-            <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white">
-              Health Care
-            </li>
-            <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white">
-              Ed-Tech
-            </li>
-            <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white">
-              Open Inovation
-            </li>
-          </ul>
-        </div>
+        {/* <div className="m-auto max-w-7xl pt-8"> */}
+        {/*   <h1 className="mb-7 text-center font-space-grotesk text-7xl font-bold text-primary1"> */}
+        {/*     Hackathon Themes */}
+        {/*   </h1> */}
+        {/*   <ul className="flex list-none flex-wrap justify-evenly gap-2 p-0 lg:text-xl"> */}
+        {/*     <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white"> */}
+        {/*       AI/ML */}
+        {/*     </li> */}
+        {/*     <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white"> */}
+        {/*       AR/VR */}
+        {/*     </li> */}
+        {/*     <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white"> */}
+        {/*       CyberSecurity */}
+        {/*     </li> */}
+        {/*     <li className="m-1  rounded-md border border-primary1 px-4 py-2 text-white"> */}
+        {/*       FinTech */}
+        {/*     </li> */}
+        {/*     <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white"> */}
+        {/*       Web 3 */}
+        {/*     </li> */}
+        {/*     <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white"> */}
+        {/*       Health Care */}
+        {/*     </li> */}
+        {/*     <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white"> */}
+        {/*       Ed-Tech */}
+        {/*     </li> */}
+        {/*     <li className="m-1 rounded-md border border-primary1 px-4 py-2 text-white"> */}
+        {/*       Open Inovation */}
+        {/*     </li> */}
+        {/*   </ul> */}
+        {/* </div> */}
       </section>
     </>
   );

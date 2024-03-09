@@ -26,12 +26,12 @@ const HFhackathon = () => {
       className="bg-cover bg-fixed bg-center bg-no-repeat overflow-x-hidden"
       style={{ backgroundImage: `url(${BGImage})` }}
     >
-      <React.Suspense fallback={<Loading/>}>
+      <React.Suspense fallback={<Loading />}>
         <section className="bg-black bg-opacity-85">
           <HFnavbar />
           <HFhero />
-          <HFabout />
           <HFthemes />
+          <HFabout />
           <HFprizepool />
           <HFdemographs />
           <HFgallery />
