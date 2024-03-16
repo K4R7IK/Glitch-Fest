@@ -100,9 +100,8 @@ function Footer() {
           </div>
           <hr className="my-6" />
           <div className="w-full px-4 text-center">
-            <div className="text-sm text-white font-medium py-1 font-space-grotesk">
+            <div className="text-sm text-gray-600 font-medium py-1 font-space-grotesk">
               Copyright © 2024 Glitch.
-              <br />
               Created by{" "}
               <a href="https://bento.me/k4r7ik" target="_blank">
                 Kartik Kushwaha

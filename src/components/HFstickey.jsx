@@ -2,7 +2,7 @@ import React from "react";
 import GlitchLogo from "../assets/Glitch_logo.png";
 import { Link } from "react-router-dom";
 
-function HFstickey() {
+function HFstickeyBtn() {
   const rotateAnimation = {
     animation: "spin 3s linear infinite", // Customize the animation duration (10s in this example)
   };
@@ -17,4 +17,5 @@ function HFstickey() {
   )
 }
 
-export default HFstickey;
+export default HFstickeyBtn;
+
