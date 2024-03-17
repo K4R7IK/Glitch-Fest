@@ -1,0 +1,50 @@
+{
+  "PLATFORM SPONSORS": [
+    {
+      "company": "Devfolio",
+      "website": "https://devfolio.co",
+      "image": "https://github.com/devfolioco/brand-assets/blob/main/Logo%20+%20Text%20-%20Colored/Devfolio%20-%20Normal@2x.png?raw=true",
+      "alt": "DEVFOLIO LOGO"
+    }
+  ],
+  "TRACK SPONSORS": [
+    {
+      "company": "Polygon",
+      "website": "https://polygon.technology/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Polygon_blockchain_logo.png",
+      "alt": "POLYGON LOGO"
+    },
+    {
+      "company": "ETHIndia",
+      "website": "https://ethindia.co/",
+      "image": "https://github.com/ETHIndia/brand-assets/blob/master/On%20Light/ETHIndia.png?raw=true",
+      "alt": "ETHINDIA LOGO"
+    }
+  ],
+  "OTHER SPONSORS": [
+    {
+      "company": "InterviewBuddy",
+      "website": "https://interviewbuddy.net/",
+      "image": "data:image/png;base64,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",
+      "alt": "LOGO"
+    },
+    {
+      "company": "Axure",
+      "website": "https://www.axure.com/",
+      "image": "https://www.axure.com/wp-content/uploads/2019/04/logo-black.svg",
+      "alt": "LOGO"
+    },
+    {
+      "company": "Rosenfeld",
+      "website": "https://rosenfeldmedia.com/",
+      "image": "https://rosenfeldmedia.com/wp-content/uploads/2022/11/rosenfeld-logo342x190.png",
+      "alt": "LOGO"
+    },
+    {
+      "company": "Reskilll",
+      "website": "https://reskilll.com",
+      "image": "https://reskilll.com/newui/img/logo.svg",
+      "alt":"LOGO"
+    }
+  ]
+}

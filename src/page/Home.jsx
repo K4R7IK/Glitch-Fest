@@ -8,6 +8,7 @@ const Events = React.lazy(() => import("../components/Events"));
 const Demographs = React.lazy(() => import("../components/Demographs"));
 const FaqSection = React.lazy(() => import("../components/Faq"));
 const Footer = React.lazy(() => import("../components/Footer"));
+const HFsponsors = React.lazy(() => import("../components/HFsponsors"));
 
 const Loading = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
         <AboutGBU />
         <Events />
         <Demographs />
+        <HFsponsors />
         <FaqSection />
         <Footer />
       </React.Suspense>

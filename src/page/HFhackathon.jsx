@@ -11,6 +11,8 @@ const HFgallery = React.lazy(() => import("../components/HFgallery"));
 const HFfooter = React.lazy(() => import("../components/HFfooter"));
 const HFabout = React.lazy(() => import("../components/HFabout"));
 const HFnavbar = React.lazy(() => import("../components/HFnavbar"));
+const HFsponsors = React.lazy(() => import("../components/HFsponsors"));
+
 
 const Loading = () => {
   return (
@@ -34,6 +36,7 @@ const HFhackathon = () => {
           <HFabout />
           <HFprizepool />
           <HFdemographs />
+          <HFsponsors />
           <HFgallery />
           <HFfooter />
           <HFstickey />
