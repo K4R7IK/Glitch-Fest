@@ -13,7 +13,7 @@ function HFabout() {
                   0.1
                 </span>
               </h1>
-              <h2 className="mb-4 text-xl md:mb-8 md:text-2xl font-extrabold text-gray-100 lg:text-3xl">
+              <h2 className="mb-4 text-xl md:mb-8 md:text-2xl font-bold text-gray-100 lg:text-3xl font-space-grotesk">
                 🚀 TechFest 2024 at Gautam Buddha University: Unleash the Future
                 with HackFed!
               </h2>

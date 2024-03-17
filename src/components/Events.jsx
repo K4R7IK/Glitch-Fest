@@ -6,35 +6,45 @@ import bgImage2 from "../assets/ascii2.png";
 import bgImage3 from "../assets/ascii1.png";
 
 const Events = () => {
-  const day1 = [
-    "Opening Ceremony",
-    "Exhibition",
-    "Coding Challenges",
-    "Face Painting",
-    "UI/UX Challenges",
-    "Shutter-film",
-    "Workshop/Bootcamps",
-    "Bridge Making",
-    "Band Wars",
-  ];
-  const day2 = [
-    "Fashion Show",
-    "Hackathon Begins",
-    "E-Sports",
-    "Startup Challenge",
-    "Tech Debate",
-    "Capture the Flag",
-    "Treasure-Hunt",
-  ];
-  const day3 = [
-    "Closing Ceremony",
-    "Technology Discussion",
-    "Hackathon Presentation",
-    "Jury Evaluation",
-    "Award Ceremony",
-    "Acknowledgement",
-    "Flicker",
-  ];
+  const day1 = {
+    "Opening Ceremony": "",
+    Exhibition: "",
+    "Coding Challenges": "",
+    "Face Painting":
+      "https://unstop.com/p/frolic-bgmi-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-933254",
+    "Shutter Short Flim":
+      "https://unstop.com/p/shutter-short-film-making-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931016",
+    "Shutter Photo Exhibition":
+      "https://unstop.com/p/shutter-photo-exhibition-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931098",
+    "Motif UI/UX":
+      "https://unstop.com/hackathons/motif-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931051",
+    "Workshop/Bootcamps": "",
+    "Bridge Making":
+      "https://unstop.com/events/bridge-making-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931096",
+  };
+  const day2 = {
+    "Hackathon Begins": "",
+    "Startup Challenge":
+      "https://unstop.com/competitions/start-up-challenge-pitch-perfect-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931479",
+    "Folic (Valorant)":
+      "https://unstop.com/p/frolic-valorant-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-933442",
+    "Fashion Show":
+      "https://unstop.com/p/solaris-fashion-show-gltch-tech-fest-gautam-buddha-university-930647",
+    "Round Table Conference": "",
+    "Capture the Flag": "",
+    "Treasure-Hunt":
+      "https://unstop.com/p/gltch-treasure-hunt-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931465",
+    Solaris: "",
+  };
+  const day3 = {
+    "Closing Ceremony": "",
+    "Technology Discussion": "",
+    "Hackathon Presentation": "",
+    "Jury Evaluation": "",
+    "Award Ceremony": "",
+    Acknowledgement: "",
+    Flicker: "",
+  };
   return (
     <div className="relative h-full" id="Events">
       <div

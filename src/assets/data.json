@@ -3,8 +3,8 @@
     "event_name": "Solaris",
     "tag_line": "Where creativity meets passion!!",
     "description": [
-      "Unleash your inner designer and showcase your creative vision at Solaris, a student-run fashion design competition!",
-      "Calling all aspiring fashionistas! Are you passionate about design and dreaming of making your mark in the fashion world? Solaris is the perfect platform for you to showcase your creativity and talent."
+      "Unleash your inner designer and showcase your creative vision at Solaris, a student-run fashion design competition! ",
+      "Calling all aspiring fashionistas!, Are you passionate about design and dreaming of making your mark in the fashion world? Solaris is the perfect platform for you to showcase your creativity and talent."
     ],
     "theme": "Open theme - Let your imagination run wild and create a garment that embodies the essence of 'Solaris' through your unique design perspective.",
     "competion_format": "This is a team-based competition. Each team can consist of a maximum of up to 12 members.",
@@ -30,7 +30,8 @@
     "tag_line": "",
     "description": [
       "It's time to celebrate! After the incredible journey of GL!TCH, we're keeping the energy alive with Flicker, an electrifying after-party you won't want to miss!",
-      "Dance the night away to a diverse blend of mainstream and underground beats spun by our talented DJs. From chart-topping hits to hidden gems, Flicker caters to all musical tastes."
+      "Dance the night away to a diverse blend of mainstream and underground beats spun by our talented DJs. From chart-topping hits to hidden gems, Flicker caters to all musical tastes.",
+      "Join us for an unforgettable night of music, dancing, and good vibes!"
     ],
     "theme": "",
     "competion_format": "",
@@ -83,7 +84,7 @@
     },
     "message": "Limited passes available, so don't wait"
   },
-  "Jamming": {
+  "Jammin": {
     "event_name": "Jamming",
     "tag_line": "A knockout tournament where YOU, thea audience, decide the winner!",
     "description": [
@@ -93,14 +94,11 @@
     "theme": "",
     "competion_format": "Team based",
     "entry_fee": "₹2000 per team",
-    "prize": [
-      "Winner: ₹10,000 Cash Prize",
-      "Runner-up: ₹5,000 Cash Prize",
-    ],
+    "prize": ["Winner: ₹10,000 Cash Prize", "Runner-up: ₹5,000 Cash Prize"],
     "rules": [
       "Your Time to Shine: Each band gets 10 minutes to rock the crowd with their best set.",
       "Audience as Judges: The crowd's cheers determine who advances to the next round, and who ultimately claims victory.",
-      "BYO Gear: Bands are responsible for bringing their own instruments and equipment.",
+      "BYO Gear: Bands are responsible for bringing their own instruments and equipment."
     ],
     "registration": {
       "start_date": "[Start Date]",

@@ -27,7 +27,7 @@ const router = createHashRouter([
 
 function App() {
   return (
-     <div className="bg-black">
+    <div className="bg-black">
       <RouterProvider router={router} />
     </div>
   );

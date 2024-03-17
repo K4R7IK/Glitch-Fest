@@ -54,8 +54,9 @@ function HFfooter() {
                 </div>
               </div>
 
-              <p className="text-white text-center text-lg pl-12 lg:text-left">
-                This hackthon conducted under GLITCH TechFest 2024. Click on rotating circle to learn more!
+              <p className="text-white text-center text-lg lg:pl-12 lg:text-left">
+                This hackthon conducted under GLITCH TechFest 2024. Click on
+                rotating circle to learn more!
               </p>
             </div>
 
@@ -83,11 +84,11 @@ function HFfooter() {
         </div>
 
         <p className="w-full text-center pb-2 text-gray-600">
-          Made by {" "} 
+          Made by{" "}
           <a href="https://github.com/ashish-kus/" target="_blank">
             Ashish Kushwaha
-          </a>
-          {" "}&{" "}
+          </a>{" "}
+          &{" "}
           <a href="https://bento.me/k4r7ik" target="_blank">
             Kartik Kushwaha
           </a>

@@ -2,6 +2,7 @@ import React from "react";
 import Glitch from "../components/Logo/Glitch";
 import Nav from "../components/Nav";
 import BgIMG from "../assets/Videos/output.gif";
+import { Link as LinkId } from "react-scroll";
 
 const Landing = () => {
   return (
@@ -19,7 +20,7 @@ const Landing = () => {
           Embrace the Imperfection: Where Flaws Find Beauty
         </p>
         <div className="bg-primary1 p-3 font-space-grotesk text-base rounded-full bg-opacity-30 backdrop-blur-lg text-white font-bold lg:text-xl lg:p-4 xl:text-2xl xl:p-5">
-          Registration Opening Soon
+          <LinkId to="Events">Register Now</LinkId>
         </div>
       </div>
     </div>

@@ -18,11 +18,11 @@ function HFhero() {
       <section id="HFlanding" className="body-font text-gray-600">
         <div className="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row">
           <div className="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24">
-            <h1 className="mb-4 text-3xl font-bold text-primary1 sm:text-4xl">
-              <br className="  hidden lg:inline-block" />
+            <h1 className="mb-4 text-2xl font-bold text-primary1">
+              <br className="hidden lg:inline-block" />
               Join HackFed's Hackathon Revolution
             </h1>
-            <p className="mb-8 leading-relaxed text-white">
+            <p className="mb-8 leading-relaxed text-white px-3 md:px-0">
               Welcome to the most thrilling 24 hours of your tech journey!
               HackFed Community invites you to TechFest 2024, where innovation
               and education technology collide in a symphony of creativity. Join
