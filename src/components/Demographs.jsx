@@ -7,7 +7,7 @@ import College from "../assets/icons/College.svg";
 
 function Demographs() {
   return (
-    <div className="bg-black flex flex-wrap justify-center text-white py-5  lg:justify-around">
+    <div className="bg-black flex flex-wrap justify-center text-white py-5   lg:justify-around">
       <div className="flex justify-center items-center">
         <img src={Registration} alt="Registration" className="h-20" />
         <div className="ml-2 md:ml-0">

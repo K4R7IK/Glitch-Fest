@@ -3,7 +3,7 @@ import BGImage from "../assets/BlackGrid.jpg";
 import "ldrs/quantum";
 
 const HFhero = React.lazy(() => import("../components/HFhero"));
-const HFstickeyBtn = React.lazy(() => import("../components/HFstickey"));
+const HFstickey = React.lazy(() => import("../components/HFstickey"));
 const HFthemes = React.lazy(() => import("../components/HFthemes"));
 const HFprizepool = React.lazy(() => import("../components/HFprizepool"));
 const HFdemographs = React.lazy(() => import("../components/HFdemographs"));
@@ -11,8 +11,6 @@ const HFgallery = React.lazy(() => import("../components/HFgallery"));
 const HFfooter = React.lazy(() => import("../components/HFfooter"));
 const HFabout = React.lazy(() => import("../components/HFabout"));
 const HFnavbar = React.lazy(() => import("../components/HFnavbar"));
-const HFsponsors = React.lazy(() => import("../components/HFsponsors.jsx"));
-
 
 const Loading = () => {
   return (
@@ -35,11 +33,10 @@ const HFhackathon = () => {
           <HFthemes />
           <HFabout />
           <HFprizepool />
-          <HFsponsors />
           <HFdemographs />
           <HFgallery />
           <HFfooter />
-          <HFstickeyBtn />
+          <HFstickey />
         </section>
       </React.Suspense>
     </div>

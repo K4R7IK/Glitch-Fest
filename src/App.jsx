@@ -3,10 +3,8 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import Broucher from "./components/Broucher";
 import "./App.css";
 import Home from "./page/Home";
-import Contact from "./page/Contact";
 import HFhackathon from "./page/HFhackathon";
 import Page404 from "./page/Page404";
-import IndividualEvent from "./components/IndividualEvent";
 
 const router = createHashRouter([
   {
@@ -22,22 +20,14 @@ const router = createHashRouter([
     element: <Broucher />,
   },
   {
-    path: "/contact/",
-    element: <Contact/> ,
-  },
-  {
     path: "*",
     element: <Page404 />,
-  },
-  {
-    path: "/IndividualEvent",
-    element: <IndividualEvent />,
   },
 ]);
 
 function App() {
   return (
-    <div className="bg-black">
+     <div className="bg-black">
       <RouterProvider router={router} />
     </div>
   );
