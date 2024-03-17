@@ -1,10 +1,18 @@
 import React from "react";
 import HFPoster from "../assets/HackfedPoster.png";
-import { useState } from "react";
+import { useEffect } from "react";
 
 function HFhero() {
-  const [hovered, setHovered] = useState(false);
-
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   return (
     <>
       <section id="HFlanding" className="body-font text-gray-600">
@@ -28,20 +36,15 @@ function HFhero() {
               hackathon at Gautam Buddha University.
             </p>
             <div className="flex justify-center">
-              {/* <button className="inline-flex rounded border-0 bg-indigo-500 px-6 py-2 text-lg text-white hover:bg-indigo-600 focus:outline-none"> */}
-              {/*   Register */}
-              {/* </button> */}
               <button className="inline-flex rounded border-0 bg-purple-500 px-6 py-2 text-lg text-white hover:bg-gray-200 focus:outline-none font-bold">
                 Discord
               </button>
-              <button
-                className={`font-bold ml-4 inline-flex rounded border-0 px-6 py-2 text-lg text-white focus:outline-none 
-      ${hovered ? "bg-indigo-600" : "bg-indigo-500 hover:bg-indigo-600"}`}
-                onMouseEnter={() => setHovered(true)}
-                onMouseLeave={() => setHovered(false)}
-              >
-                {hovered ? "Opening Soon" : "Register"}
-              </button>
+              <div
+                className="apply-button"
+                data-hackathon-slug="hackfed-2"
+                data-button-theme="dark-inverted"
+                style={{ height: "44px", width: "312px" }}
+              ></div>
             </div>
           </div>
           <div className="w-5/6 md:w-1/2 lg:w-full lg:max-w-lg">
@@ -87,5 +90,4 @@ function HFhero() {
     </>
   );
 }
-
 export default HFhero;

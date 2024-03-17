@@ -8,7 +8,8 @@ const Events = React.lazy(() => import("../components/Events"));
 const Demographs = React.lazy(() => import("../components/Demographs"));
 const FaqSection = React.lazy(() => import("../components/Faq"));
 const Footer = React.lazy(() => import("../components/Footer"));
-const HFsponsors = React.lazy(() => import("../components/HFsponsors"));
+const PerEvent = React.lazy(() => import("../components/PerEvent"));
+const Sponsor = React.lazy(() => import("../components/Sponsors"));
 
 const Loading = () => {
   return (
@@ -26,8 +27,9 @@ const Home = () => {
         <AboutGlitch />
         <AboutGBU />
         <Events />
+        {/* <PerEvent /> */}
         <Demographs />
-        <HFsponsors />
+        <Sponsor />
         <FaqSection />
         <Footer />
       </React.Suspense>

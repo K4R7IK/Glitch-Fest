@@ -12,7 +12,7 @@ const Events = () => {
     "Coding Challenges",
     "Face Painting",
     "UI/UX Challenges",
-    "Cinematography",
+    "Shutter-film",
     "Workshop/Bootcamps",
     "Bridge Making",
     "Band Wars",
@@ -24,7 +24,7 @@ const Events = () => {
     "Startup Challenge",
     "Tech Debate",
     "Capture the Flag",
-    "Treasure Hunt",
+    "Treasure-Hunt",
   ];
   const day3 = [
     "Closing Ceremony",
@@ -33,7 +33,7 @@ const Events = () => {
     "Jury Evaluation",
     "Award Ceremony",
     "Acknowledgement",
-    "Epiphany Night",
+    "Flicker",
   ];
   return (
     <div className="relative h-full" id="Events">

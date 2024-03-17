@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Events from "../assets/Events.json";
+import { Link } from "react-router-dom";
 
 const Cards = ({ title, bgImg, events }) => {
   const [showPopup, setShowPopup] = useState(false);
@@ -36,8 +38,10 @@ const Cards = ({ title, bgImg, events }) => {
                   className="text-lg text-primary2 mb-1 font-spacegrostek font-medium lg:text-xl"
                 >
                   {/* <a href={`#${event}`} className="block p-2 rounded-md"> */}
+                  {/* consol.log("nandu"); */}
                   {event}
                   {/* </a> */}
+                  {/* <Link to="/Events/"></Link> */}
                 </li>
               ))}
             </ul>
