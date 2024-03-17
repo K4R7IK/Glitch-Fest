@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Events from "../assets/Events.json";
 import { Link } from "react-router-dom";
 
 const Cards = ({ title, bgImg, events }) => {
