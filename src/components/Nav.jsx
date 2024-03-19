@@ -14,9 +14,9 @@ const Nav = () => {
         <Link to="/hackathon/" className="hover:text-primary2 ">
           Hackathon
         </Link>
-        <Link to="/broucher/" className="hover:text-primary2 ">
-          Broucher
-        </Link>
+        {/* <Link to="/broucher/" className="hover:text-primary2 "> */}
+        {/*   Broucher */}
+        {/* </Link> */}
         <a
           className="hover:text-primary2"
           href="https://linktr.ee/Anurag_Rawal_04"
