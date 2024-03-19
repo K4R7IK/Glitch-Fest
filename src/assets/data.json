@@ -25,6 +25,7 @@
     },
     "message": "Limited slots available, so register early!"
   },
+
   "Flicker": {
     "event_name": "Flicker",
     "tag_line": "",
@@ -44,6 +45,7 @@
     },
     "message": "Limited passes available, so don't wait"
   },
+
   "Standup": {
     "event_name": "Stand Up",
     "tag_line": "Get ready for a night of unforgettable laughter at GL!TCH!",
@@ -64,6 +66,7 @@
     },
     "message": "Limited passes available, so don't wait"
   },
+
   "Treasure_Hunt": {
     "event_name": "Treasure Hunt",
     "tag_line": "Get ready to explore the campus and solve riddles",
@@ -84,7 +87,7 @@
     },
     "message": "Limited passes available, so don't wait"
   },
-  "Jammin": {
+  "Jamming": {
     "event_name": "Jamming",
     "tag_line": "A knockout tournament where YOU, thea audience, decide the winner!",
     "description": [

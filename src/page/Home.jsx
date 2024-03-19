@@ -10,6 +10,7 @@ const FaqSection = React.lazy(() => import("../components/Faq"));
 const Footer = React.lazy(() => import("../components/Footer"));
 // const PerEvent = React.lazy(() => import("../components/PerEvent"));
 const Sponsor = React.lazy(() => import("../components/Sponsors"));
+// const Contact = React.lazy(() => import("../page/Contact"));
 
 const Loading = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
         <Demographs />
         <Sponsor />
         <FaqSection />
+        {/* <Contact/> */}
         <Footer />
       </React.Suspense>
     </>

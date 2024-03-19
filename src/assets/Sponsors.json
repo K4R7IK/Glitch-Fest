@@ -1,4 +1,11 @@
 {
+  "INDUSTRY PARTNER": [
+    {
+      "company": "Global Chamber of Commerce & Industry",
+      "website": "http://gcci.live/",
+      "image": "http://gcci.live/img/logo.png"
+    }
+  ],
   "OUR SPONSOR": [
     {
       "company": "Reskilll",
@@ -27,4 +34,3 @@
     }
   ]
 }
-

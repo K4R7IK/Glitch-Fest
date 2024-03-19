@@ -21,7 +21,7 @@ function Sponsors() {
                       <a href={item.website}>
                         <div className="flex justify-center align-middle bg-white px-4 h-40 rounded-lg ">
                           <img
-                            className=" rounded bg-white my-auto w-full size-fit object-center"
+                            className=" rounded bg-white my-auto h-40 p-4" 
                             src={item.image}
                             alt="content"
                           />
