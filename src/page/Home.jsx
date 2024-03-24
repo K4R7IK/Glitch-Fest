@@ -4,13 +4,11 @@ import "ldrs/quantum";
 const NewLanding = React.lazy(() => import("../components/NewLanding"));
 const AboutGlitch = React.lazy(() => import("../components/AboutGlitch"));
 const AboutGBU = React.lazy(() => import("../components/AboutGBU"));
-const Events = React.lazy(() => import("../components/Events"));
+const NewEvent = React.lazy(() => import("../components/NewEvent"));
 const Demographs = React.lazy(() => import("../components/Demographs"));
 const FaqSection = React.lazy(() => import("../components/Faq"));
 const Footer = React.lazy(() => import("../components/Footer"));
-// const PerEvent = React.lazy(() => import("../components/PerEvent"));
 const Sponsor = React.lazy(() => import("../components/Sponsors"));
-// const Contact = React.lazy(() => import("../page/Contact"));
 
 const Loading = () => {
   return (
@@ -27,12 +25,10 @@ const Home = () => {
         <NewLanding />
         <AboutGlitch />
         <AboutGBU />
-        <Events />
-        {/* <PerEvent /> */}
+        <NewEvent />
         <Demographs />
         <Sponsor />
         <FaqSection />
-        {/* <Contact/> */}
         <Footer />
       </React.Suspense>
     </>

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Fashion Show",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/solaris.png",
+    "eventName": "Solaris",
+    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "link": "https://www.google.com"
+  },
+  {
+    "title": "E-Sports",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/bgmi.png",
+    "eventName": "Frolic-BGMI",
+    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "link": "https://www.google.com"
+  },
+  {
+    "title": "E-Sports",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/frolic.png",
+    "eventName": "Frolic-Valorant",
+    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "link": "https://www.google.com"
+  },
+  {
+    "title": "Architecture",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/bridgemaking.png",
+    "eventName": "Bridge-Making",
+    "eventDesc": "lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "link": "https://www.google.com"
+  },
+  {
+    "title": "UI/UX",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/motif.png",
+    "eventName": "Motif",
+    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "link": "https://www.google.com"
+  },
+  {
+    "title": "Coding Chanllenge",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/runes.png",
+    "eventName": "Capture The Flag",
+    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    "link": "https://www.google.com"
+  }
+]

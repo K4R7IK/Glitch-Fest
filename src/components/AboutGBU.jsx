@@ -1,13 +1,21 @@
 import React from "react";
-import SideImg from "../assets/PSX_20230705_100253.jpg"
+import SideImg from "../assets/PSX_20230705_100253.jpg";
 
 const AboutGBU = () => {
   return (
-    <div className="h-full bg-black flex flex-col-reverse lg:flex-row items-center justify-center" id="AboutGlitch">
+    <div
+      className="h-full flex flex-col-reverse lg:flex-row items-center justify-center relative"
+      id="AboutGlitch"
+    >
+      <div class="absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#80808032_1px,transparent_1px),linear-gradient(to_bottom,#80808032_1px,transparent_1px)] bg-[size:25px_25px] -z-10"></div>
+
       <div className="w-full p-5 lg:h-full lg:p-3 lg:w-1/2">
-        <img src={SideImg} className="object-cover w-full rounded-xl grayscale bg-center" />
+        <img
+          src={SideImg}
+          className="object-cover w-full rounded-xl grayscale bg-center"
+        />
       </div>
-      <div className="bg-black h-full lg:w-1/2 xl:p-4">
+      <div className="h-full lg:w-1/2 xl:p-4">
         <h1 className="text-white text-4xl font-silkscreen text-center pt-2 lg:text-5xl">
           About
         </h1>

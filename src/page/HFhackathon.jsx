@@ -1,5 +1,4 @@
 import React from "react";
-import BGImage from "../assets/BlackGrid.jpg";
 import "ldrs/quantum";
 
 const HFhero = React.lazy(() => import("../components/HFhero"));
@@ -13,7 +12,6 @@ const HFabout = React.lazy(() => import("../components/HFabout"));
 const HFnavbar = React.lazy(() => import("../components/HFnavbar"));
 const HFsponsors = React.lazy(() => import("../components/HFsponsors"));
 
-
 const Loading = () => {
   return (
     <div className="bg-black flex items-center justify-center h-screen">
@@ -24,25 +22,22 @@ const Loading = () => {
 
 const HFhackathon = () => {
   return (
-    <div
-      className="bg-cover bg-fixed bg-center bg-no-repeat overflow-x-hidden"
-      style={{ backgroundImage: `url(${BGImage})` }}
-    >
-      <React.Suspense fallback={<Loading />}>
-        <section className="bg-black bg-opacity-85">
-          <HFnavbar />
-          <HFhero />
-          <HFthemes />
-          <HFabout />
-          <HFprizepool />
-          <HFdemographs />
-          <HFsponsors />
-          <HFgallery />
-          <HFfooter />
-          <HFstickey />
-        </section>
-      </React.Suspense>
-    </div>
+    <React.Suspense fallback={<Loading />}>
+      <section className="relative">
+        <div class="fixed inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#80808032_1px,transparent_1px),linear-gradient(to_bottom,#80808032_1px,transparent_1px)] bg-[size:50px_50px] -z-10"></div>
+
+        <HFnavbar />
+        <HFhero />
+        <HFthemes />
+        <HFabout />
+        <HFprizepool />
+        <HFdemographs />
+        <HFsponsors />
+        <HFgallery />
+        <HFfooter />
+        <HFstickey />
+      </section>
+    </React.Suspense>
   );
 };
 export default HFhackathon;

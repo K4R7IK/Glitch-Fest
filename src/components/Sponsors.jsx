@@ -4,7 +4,9 @@ import SponsorData from "../assets/Sponsors.json";
 function Sponsors() {
   return (
     <>
-      <section className="bg-black">
+      <section className="relative h-full">
+        <div class="absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#80808032_1px,transparent_1px),linear-gradient(to_bottom,#80808032_1px,transparent_1px)] bg-[size:50px_50px] -z-10"></div>
+
         <div className="container px-5 py-24 mx-auto">
           {Object.entries(SponsorData).map(([category, sponsors], index) => (
             <div key={index}>
@@ -21,7 +23,7 @@ function Sponsors() {
                       <a href={item.website}>
                         <div className="flex justify-center align-middle bg-white px-4 h-40 rounded-lg ">
                           <img
-                            className=" rounded bg-white my-auto h-40 p-4" 
+                            className=" rounded bg-white my-auto h-40 p-4"
                             src={item.image}
                             alt="content"
                           />
