@@ -8,7 +8,7 @@ const AboutGlitch = () => {
         className="h-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center relative"
         id="AboutGlitch"
       >
-        <div class="absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#80808032_1px,transparent_1px),linear-gradient(to_bottom,#80808032_1px,transparent_1px)] bg-[size:25px_25px] -z-10"></div>
+        <div className="absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#80808032_1px,transparent_1px),linear-gradient(to_bottom,#80808032_1px,transparent_1px)] bg-[size:25px_25px] -z-10"></div>
 
         <div className="w-full p-5 lg:h-full lg:p-3 lg:w-1/2">
           <img
