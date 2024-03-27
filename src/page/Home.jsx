@@ -1,10 +1,10 @@
 import React from "react";
 import "ldrs/quantum";
 
-const NewLanding = React.lazy(() => import("../components/NewLanding"));
+const Landing = React.lazy(() => import("../components/Landing"));
 const AboutGlitch = React.lazy(() => import("../components/AboutGlitch"));
 const AboutGBU = React.lazy(() => import("../components/AboutGBU"));
-const NewEvent = React.lazy(() => import("../components/NewEvent"));
+const Event = React.lazy(() => import("../components/Event"));
 const Demographs = React.lazy(() => import("../components/Demographs"));
 const FaqSection = React.lazy(() => import("../components/Faq"));
 const Footer = React.lazy(() => import("../components/Footer"));
@@ -22,10 +22,10 @@ const Home = () => {
   return (
     <>
       <React.Suspense fallback={<Loading />}>
-        <NewLanding />
+        <Landing />
         <AboutGlitch />
         <AboutGBU />
-        <NewEvent />
+        <Event />
         <Demographs />
         <Sponsor />
         <FaqSection />

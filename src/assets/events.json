@@ -1,44 +1,114 @@
 [
   {
+    "title": "UI/UX",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/motif.png",
+    "eventName": "Motif",
+    "eventDesc": "UI/UX Challenge for designers to create the best UI for a given theme.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/motif.png",
+    "link": "https://unstop.com/hackathons/motif-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931051"
+  },
+  {
+    "title": "Photo Exhibition",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/shutter.png",
+    "eventName": "Shutter",
+    "eventDesc": "Craft cinematic masterpiece shots for the Shutter Photo Exhibition.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/shutter.png",
+    "link": "https://unstop.com/events/photo-exhibition-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931098"
+  },
+  {
     "title": "Fashion Show",
-    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/solaris.png",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/solaris.png",
     "eventName": "Solaris",
-    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    "link": "https://www.google.com"
+    "eventDesc": "Compete in the Solaris student fashion show for prizes and experience.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/solaris.png",
+    "link": "https://unstop.com/events/solaris-fashion-show-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-930647"
   },
   {
     "title": "E-Sports",
-    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/bgmi.png",
-    "eventName": "Frolic-BGMI",
-    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    "link": "https://www.google.com"
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/frolic.png",
+    "eventName": "Frolic - Valorant",
+    "eventDesc": "Join Frolic - Valorant esports event to showcase strategy and shooting skills.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/frolic.png",
+    "link": "https://unstop.com/events/frolic-valorant-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-933442"
   },
   {
     "title": "E-Sports",
-    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/frolic.png",
-    "eventName": "Frolic-Valorant",
-    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    "link": "https://www.google.com"
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/frolic.png",
+    "eventName": "Frolic - BGMI",
+    "eventDesc": "Compete in Frolic - BGMI esports event for skill and strategy challenges.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/bgmi.png",
+    "link": "https://unstop.com/events/frolic-bgmi-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-933484"
+  },
+  {
+    "title": "Face Painting",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/painting.png",
+    "eventName": "Face Painting",
+    "eventDesc": "Celebrate individuality and self-expression through face painting at Face Painting Showcase.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/painting.png",
+    "link": "https://unstop.com/events/face-painting-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-933254"
+  },
+  {
+    "title": "Cinematorgraphy",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/shutter.png",
+    "eventName": "Shutter (Short Film)",
+    "eventDesc": "Craft cinematic masterpiece shots for the Shutter Short Film Competition.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/flim.png",
+    "link": "https://unstop.com/events/shutter-short-film-making-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931016"
+  },
+  {
+    "title": "Pitching",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/startup.png",
+    "eventName": "Start-Up Challenge Pitch Perfect",
+    "eventDesc": "Showcase innovative startup ideas and compete for prizes at Pitch Perfect: Glitch Edition.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/startup.png",
+    "link": "https://unstop.com/competitions/start-up-challenge-pitch-perfect-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931479"
   },
   {
     "title": "Architecture",
-    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/bridgemaking.png",
-    "eventName": "Bridge-Making",
-    "eventDesc": "lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    "link": "https://www.google.com"
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/bridgemaking.png",
+    "eventName": "Bridge Making ",
+    "eventDesc": "Design and build an ice cream stick bridge for the Ice cream Stick Bridge Challenge.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/bridgemaking.png",
+    "link": "https://unstop.com/events/bridge-making-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931096"
   },
   {
-    "title": "UI/UX",
-    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/motif.png",
-    "eventName": "Motif",
-    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    "link": "https://www.google.com"
+    "title": "Exhibition",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/exhibition.png",
+    "eventName": "Tech Exhibition",
+    "eventDesc": "Explore the transformative power of technology at the Glitch Tech Expo.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/exhibition.png",
+    "link": "https://unstop.com/competitions/tech-exhibition-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-935279"
   },
   {
-    "title": "Coding Chanllenge",
-    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/runes.png",
+    "title": "Coding Challenge ",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/runes.png",
+    "eventName": "Runes",
+    "eventDesc": "Test your skills in coding and data structures at Runes coding challenge.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/runes.png",
+    "link": "https://unstop.com/hackathons/runes-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-935029"
+  },
+  {
+    "title": "Hunt",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/hunt.png",
+    "eventName": "Treasure Hunt",
+    "eventDesc": "Embark on a thrilling treasure hunt across the campus to reach the hidden treasure first!",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/hunt.png",
+    "link": "https://unstop.com/competitions/treasure-hunt-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-931465"
+  },
+  {
+    "title": "CyberSec",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/ctf.png",
     "eventName": "Capture The Flag",
-    "eventDesc": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    "link": "https://www.google.com"
+    "eventDesc": "Join the Capture The Flag cybersecurity challenge and test your skills in digital security!",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/ctf.png",
+    "link": "https://unstop.com/hackathons/capture-the-flag-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-940010"
+  },
+  {
+    "title": "Panel Discussion",
+    "poster": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/poster/discussion.png",
+    "eventName": "Beyond The Binary",
+    "eventDesc": "Engage in stimulating discussions and collaborate with tech enthusiasts at Beyond the Binary: Glitch Summit.",
+    "banner": "https://raw.githubusercontent.com/K4R7IK/Glitch-Poster/master/banner/discussion.png",
+    "link": "https://unstop.com/conferences/beyond-the-binary-gltch-tech-fest-gautam-buddha-university-gbu-greater-noida-935297"
   }
 ]

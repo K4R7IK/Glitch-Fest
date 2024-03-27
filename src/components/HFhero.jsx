@@ -42,7 +42,7 @@ function HFhero() {
               <div
                 className="apply-button"
                 data-hackathon-slug="hackfed-2"
-                data-button-theme="dark-inverted"
+                data-button-theme="dark"
                 style={{ height: "44px", width: "312px" }}
               ></div>
             </div>
